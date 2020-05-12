@@ -10,6 +10,5 @@
   :source ["fork.c"])
 
 (declare-source
-  :name "fork"
   :source ["fork.janet"])
 
