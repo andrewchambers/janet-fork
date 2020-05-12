@@ -1,10 +1,5 @@
-# janet-pspawn
+# janet-fork
 
-A process API for janet wrapping posix-spawn(3). As such, it only works on POSIX systems.
+Spawn a process via fork.
 
-## API
-
-[here](API.md)
-
-
-
+The returned process object behaves similarly to janet-posix-spawn process objects.
