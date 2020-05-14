@@ -20,7 +20,7 @@
     N.B. Extreme care must be taken when using fork. There is no way to prevent
     the janet garbage collector from running object destructors
     in both vm's after the fork. If active destructors are not safe to
-    run twice, it make cause unexpected behavior. An example of this
+    run twice, it may cause unexpected behavior. An example of this
     would be corrupting an sqlite3 database, as it is open in two processes
     after the fork.
 
